@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кочевник</title>
+    <link rel="stylesheet" type="text/css" href="Css/main.css">
     <style>
+        
         html{
             background-image: url(img/admin\ menu.png);
             background-size: cover;
@@ -23,10 +25,8 @@
         .main {
             display: flex;
             justify-content: center;
-            height: 700px;
+            height: 1100px;
             align-items: center;
-
-
         }
         .admintext {
             display: flex;
@@ -38,32 +38,38 @@
         .adminbutton {
             display: flex;
             flex-direction: column;
-        }
-
-        button {
-            border: 1px;
-            border-radius: 87px;
-            background-color: white;
-            cursor: pointer;
-            margin: 8px;
+            
         }
 
     </style>
 </head>
+<body>
+
+<img class="headerimg" src="Img/headerimg.png">
+<a href="main acc.html"><img class="icon" src="Img/icon.jpg"></a>
+<a href="menu acc.html"><button class="dishmenu">Меню</button></a>
+<a href="booking acc.html"><button class="Booking">Бронирование стола</button></a>
+<a href="admin.html"><img class="profile" src="Img/admin icon.png"></a>
     <div class = "main">
+
         <div class = "backwall">
             <div class="admintext">
                 <p>Админ панель</p>
                 <p>Добро пожаловать в админ панель ресторана “Кочевник”!</p>
             </div> 
         <div class="adminbutton">
-                <a href = ""><button>Клиентская база</button></a>
-                <a href = ""><button>Редактировать меню</button></a>
-                <a href = ""><button>Посмотреть столы для бронирования</button></a>
+                <a href = "customers base.html"><button>Клиентская база</button></a>
+                <a href = "admin menu.html"><button>Редактировать меню</button></a>
+                <a href = "booking table.html"><button>Посмотреть столы для бронирования</button></a>
         </div>
         </div>
     </div>
 </body>
 <footer>
+    <div class="footer">
+        <a class="tel">+7 (911) 654-04-00</a>
+        <a class="adr">ул. имени В.И. Ленина, 33Б, Нарьян-Мар</a>
+        <a class="work">круглосуточная работа с 12:00 - до 23:00</a>
+    </div>
 </footer>
 </html>
