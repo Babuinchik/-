@@ -14,7 +14,7 @@
   </ul>
   DataBase:
   <ul>
-    MySQL
+    PHP
   </ul>
   <br>
   
