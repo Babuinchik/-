@@ -10,11 +10,11 @@
   </ul>
   Backend:
   <ul>
-    Node.js
+    PHP
   </ul>
   DataBase:
   <ul>
-    PHP
+    MySQL
   </ul>
   <br>
   
