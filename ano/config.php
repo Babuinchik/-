@@ -40,9 +40,6 @@ function loginUser($email, $password) {
     return false;
 }
 
-/**
- * Регистрация нового пользователя
- */
 function registerUser($name, $email, $password, $phone = '') {
     global $pdo;
     
@@ -86,7 +83,6 @@ function registerUser($name, $email, $password, $phone = '') {
         return false;
     }
 }
-
 // Выход из системы
 if (isset($_GET['logout'])) {
     session_destroy();

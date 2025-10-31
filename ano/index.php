@@ -31,7 +31,7 @@ $page_title = "Главная - Ресторан Кочевник";
                         <span class="user-greeting">Привет, <?php echo htmlspecialchars($_SESSION['user_name']); ?>!</span>
                     <?php else: ?>
                         <a href="login.php" class="btn-login">Вход</a>
-                        <a href="register.php" class="btn-register">Регистрация</a>
+                        <a href="registr.php" class="btn-register">Регистрация</a>
                     <?php endif; ?>
                 </div>
             </div>

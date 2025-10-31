@@ -44,8 +44,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 }
-
-$page_title = "Регистрация - Ресторан Кочевник";
 ?>
 <!DOCTYPE html>
 <html lang="ru">
